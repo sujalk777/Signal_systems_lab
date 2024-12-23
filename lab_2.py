@@ -1,0 +1,28 @@
+import numpy as np
+import matplotlib.pyplot as plt
+f=20
+t=np.linspace(0,10,100)
+x1=np.sin(2*np.pi*f*t)
+plt.figure(figsize=(10, 4))
+plt.subplot(1, 2, 1)
+plt.plot(t,x1)
+plt.subplot(1, 2, 2)
+plt.stem(t,x1)
+plt.show()
+t2=np.linspace(0,10,50)
+x2=np.sin(2*np.pi*f*t2)
+plt.figure(figsize=(10, 4))
+plt.subplot(1, 2, 1)
+plt.plot(t2,x2)
+plt.subplot(1, 2, 2)
+plt.stem(t2,x2)
+plt.show()
+t3=np.linspace(0,10,35)
+x3=np.sin(2*np.pi*f*t3)
+plt.figure(figsize=(10, 4))
+plt.subplot(1, 2, 1)
+plt.plot(t3,x3)
+plt.subplot(1, 2, 2)
+plt.stem(t3,x3)
+plt.show()
+
